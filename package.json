@@ -1,0 +1,25 @@
+{
+  "name": "comm-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "finalhandler": "^2.1.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "query-string": "^9.1.2",
+    "rand-token": "^1.0.1",
+    "router": "^2.2.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
