@@ -51,9 +51,9 @@ function authenticateToken(req, res, next) {
 module.exports = authenticateToken; 
 
 //ROUTE IMPORTS GO HERE
-
+const productsRoutes = require('../routes/products.route')
 
 //ROUTES GO HERE 
-
+app.use('/api', productsRoutes); 
 
 module.exports = app; 
