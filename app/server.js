@@ -2,7 +2,7 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const swaggerUi = require("swagger-ui-express");
 const YAML = require("yamljs");
-const swaggerDocument = YAML.load("./sunglasses-api.yaml");
+const swaggerDocument = YAML.load('./api=yaml-file.yaml')
 require("dotenv").config();
 const router = express.Router();
 
@@ -16,7 +16,7 @@ app.use(express.json());
 //eror handling
 app.use((err, red, res, next) => {
   console.error(err.stack);
-  res.status(500).send("something broke!!");
+  res.status(500).send("Something broke!!");
 });
 
 //swagger
