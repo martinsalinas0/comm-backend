@@ -1,3 +1,6 @@
+const products = require('../mock-data/products.json')
+
+
 const getAllProducts = (req, res) => { 
   try {
     res.status(200).json({products})

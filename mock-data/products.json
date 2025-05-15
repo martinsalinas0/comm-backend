@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "string",
+    "name": "string",
+    "description": "string",
+    "price": 0,
+    "category": "string",
+    "reviews": [
+      {
+        "_id": "string",
+        "author": "string",
+        "rating": 0,
+        "comment": "string"
+      }
+    ]
+  }
+]
