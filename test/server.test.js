@@ -1,5 +1,6 @@
 const mocha = require('mocha')
 const chai = require('chai'); 
+<<<<<<< HEAD:test/server-test.js
 const expect = require('chai').expect; 
 
 
@@ -17,3 +18,8 @@ describe('GET all products api', () => {
     })
   })
 })
+=======
+
+
+
+>>>>>>> 7bba864db2d3687ec192207e734a1d8c03ff48d6:test/server.test.js
